@@ -1,0 +1,76 @@
+html {
+  font-size : 20px;
+  font-family: 'Courier New', Courier, monospace;
+  /* background-color:burlywood; */
+}
+body {
+  /* background-color: #e6ccff;  */
+  background-image: url("https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+}
+input {
+  /* width:500px; */
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  background-color: #eeccff;
+} 
+button {
+  width: 150px;
+  border-radius: 12px;
+  background-color: #cc66ff;
+  box-shadow: 0px 3px 2px 4px #571f8b;
+  cursor: pointer;
+}
+
+#container {
+  position: relative;
+  width: 700px;
+  height: 560px;
+  margin: 65px auto 0 auto;
+  padding: 10px;
+  box-shadow: 0px 5px 5px 5px  #571f8b;
+  /* position: relative; */
+  border: 1px solid #ccc;
+  background-color: white;
+}
+.myObjectDetails {
+  padding : 10px;
+  border : 5px solid black;
+  height: 150px;
+}
+.changeMyObjectDetails {
+  display: none;
+}
+.nameContainer {
+  
+}
+.ageContainer {
+  
+}
+select {
+  padding: 9px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: #eeccff;
+}
+.buttonContainer {
+  text-align: center;
+  
+}
+.changeColor {
+  background-color: rgb(185, 54, 54);
+}
+.boxForStyling{
+  width: 1400px;
+  height: 200px;
+  background-color: #6900cc;
+  /* border: 5px solid black; */
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background-image: url("https://images.pexels.com/photos/1363876/pexels-photo-1363876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+}
