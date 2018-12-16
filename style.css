@@ -1,14 +1,11 @@
 html {
   font-size : 20px;
   font-family: 'Courier New', Courier, monospace;
-  /* background-color:burlywood; */
 }
 body {
-  /* background-color: #e6ccff;  */
   background-image: url("https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
 }
 input {
-  /* width:500px; */
   padding: 8px;
   display: block;
   border: none;
@@ -23,9 +20,16 @@ button {
   box-shadow: 0px 3px 2px 4px #571f8b;
   cursor: pointer;
 }
+select {
+  padding: 9px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: #eeccff;
+}
 
 #container {
-  position: relative;
+  /* position: relative; */
   width: 700px;
   height: 560px;
   margin: 65px auto 0 auto;
@@ -49,13 +53,7 @@ button {
 .ageContainer {
   
 }
-select {
-  padding: 9px 0;
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid #ccc;
-  background-color: #eeccff;
-}
+
 .buttonContainer {
   text-align: center;
   
@@ -63,7 +61,7 @@ select {
 .changeColor {
   background-color: rgb(185, 54, 54);
 }
-.boxForStyling{
+.headerBox{
   width: 1400px;
   height: 200px;
   background-color: #6900cc;
@@ -73,4 +71,7 @@ select {
   top: 0px;
   z-index: -1;
   background-image: url("https://images.pexels.com/photos/1363876/pexels-photo-1363876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+}
+.newLine {
+  white-space: pre;
 }
